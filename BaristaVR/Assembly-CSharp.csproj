@@ -56,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BellDingScript.cs" />
+     <Compile Include="Assets\FluidAssets\Scripts\KeepTransform.cs" />
+     <Compile Include="Assets\FluidAssets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\FluidAssets\Scripts\LiquidController.cs" />
+     <None Include="Assets\FluidAssets\Shaders\screen.shader" />
+     <None Include="Assets\FluidAssets\Shaders\LiquidInBottle.shader" />
+     <None Include="Assets\FluidAssets\Shaders\LiquidTopSurface.shader" />
  <Reference Include="Unity.XR.Management">
  <HintPath>E:/GitHub/BaristaVR/BaristaVR/BaristaVR/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
